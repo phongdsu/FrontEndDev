@@ -1,0 +1,44 @@
+.grid-layout {
+/*  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);*/
+/*  transform: scale(0.5);*/
+}
+
+.hero,
+.leaderboard {
+/*  grid-column: 1 / -1; /* Full width */*/
+}
+
+.w300 {
+ transform: scale(.64);
+  position: absolute;
+  top: -78px;
+    left: 65px;
+}
+
+.w970 {
+  top: -57px;
+    left: -13px;
+    position: absolute;
+    transform: scale(0.31);
+}
+.w728 {
+      position: absolute;
+    top: 91px;
+    left: 108px;
+    transform: scale(0.412);
+}
+
+.w300h250 {
+      position: absolute;
+    top: 165px;
+    left: 322px;
+}
+
+.w160 {
+   transform: scale(.64);
+  position: absolute;
+    left: 604px;
+    top: -78px;
+}
