@@ -83,7 +83,7 @@ h6, .h6 {
 }
 
 .btn {
-  padding: 18px 38px;
+  padding: 10px 20px;
   border: 2px solid transparent;
   text-transform: uppercase;
   border-radius: 0px;
@@ -799,7 +799,8 @@ textarea.form-control {
 }
 
 .img-fluid {
-  max-height: 500px;
+  max-height: 508px;
+
 
 }
 
@@ -811,10 +812,9 @@ textarea.form-control {
   margin-bottom: 30px;
 }
 
-/* .portfolio-gallery {
-  background-image: linear-gradient(gray, white);
+.project-thumb {
   border-radius: 10px;
-} */
+}
 
 .portfolio .container {
   background-image: linear-gradient(white, gray);

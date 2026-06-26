@@ -1,0 +1,6 @@
+*.psd
+*.psb
+uploads/*
+*.bak.php
+_assets/**/*.zip
+.DS_Store

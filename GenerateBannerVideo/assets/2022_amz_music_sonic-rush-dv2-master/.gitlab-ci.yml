@@ -1,0 +1,11 @@
+deploy_master:
+  environment:
+    name: master
+    url: review.egplusww.com
+  script:
+    - cd /sites/review.egplusww.com/$CI_PROJECT_NAME && git checkout master && git pull origin master
+  only:
+    - master
+
+variables:
+  GIT_STRATEGY: none
