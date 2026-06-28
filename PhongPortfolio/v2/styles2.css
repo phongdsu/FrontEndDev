@@ -30,3 +30,8 @@ body { font-family: sans-serif; }
 .carousel.is-fullscreen .carousel-cell-image {
   max-width: 100%;
 }
+
+.carousel video {
+  display: block;
+  max-height: 100%;
+}
