@@ -5,33 +5,62 @@
 body { font-family: sans-serif; }
 
 .carousel {
-  background: #222;
+  background: white;
 }
 
-.carousel-cell {
-  width: 100%;
-  height: 300px;
-  margin-right: 10px;
-  /* center images in cells with flexbox */
+ .carousel-cell {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  border: solid blue 1px;
+  background-color: lightblue;
 }
 
 .carousel.is-fullscreen .carousel-cell {
   height: 100%;
 }
 
-.carousel-cell-image {
+/* .carousel-cell-image {
   display: block;
   max-height: 100%;
-}
+} */
 
 .carousel.is-fullscreen .carousel-cell-image {
   max-width: 100%;
 }
 
+.description {
+  border: solid rgb(36, 80, 5) 1px;
+  padding: 0 2rem;
+  background-color: lightgreen;
+  padding: 0 10rem;
+}
+
+/* .carousel h2 {
+  font-size: 1.5 em;
+  border: solid red 1px;
+
+
+}
+
+.carousel p {
+  padding: 0 20rem;
+  font-size: 1 em;
+  border: solid red 1px;
+  margin-top: -0.5rem;
+
+} */
+
 .carousel video {
   display: block;
-  max-height: 100%;
+  height: 100%;
+  max-height: 500px;
+  border: solid red 1px;
+  background-color: lightcoral;
+  /* margin-top: 30px; */
+
 }
+
+
+
